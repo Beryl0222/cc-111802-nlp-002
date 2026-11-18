@@ -1,0 +1,18 @@
+[
+  {
+    "record_id": "homework-authorship-review-lesson-a",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T09:00:00Z",
+    "text": "作业表达来源复核台需要保留作业片段和原文依据。",
+    "context": "教研演练"
+  },
+  {
+    "record_id": "homework-authorship-review-lesson-b",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T09:05:00Z",
+    "text": "教师复核作业片段时应查看课程语境。",
+    "context": "课堂练习"
+  }
+]
