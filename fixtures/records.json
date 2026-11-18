@@ -4,8 +4,48 @@
     "source": "school-synthetic",
     "revision": 1,
     "observed_at": "2026-11-18T09:00:00Z",
-    "text": "作业表达来源复核台需要保留作业片段和原文依据。",
-    "context": "教研演练"
+    "text": "教材指出：“观察是写作的基础。”我把这句话改写为细致观察能够积累素材，并补充说明自己连续一周记录校园落叶，结尾再次呼应：观察是写作的基础。",
+    "context": "教研演练",
+    "annotation_proposals": [
+      {
+        "category": "citation",
+        "quote": "观察是写作的基础。",
+        "source_ref": "《语文（七年级上册）》第三单元",
+        "rationale": "与教材原句措辞一致，学生使用引号标明直接引用",
+        "confidence": 0.95,
+        "client_key": "lesson-a-citation-1"
+      },
+      {
+        "category": "citation",
+        "quote": "观察是写作的基础。",
+        "source_ref": "《语文（七年级上册）》第三单元",
+        "rationale": "学生在结尾再次借用同一教材原句呼应开头，属于独立的第二次引用",
+        "confidence": 0.9,
+        "client_key": "lesson-a-citation-2"
+      },
+      {
+        "category": "paraphrase",
+        "quote": "细致观察能够积累素材",
+        "source_ref": "《语文（七年级上册）》第三单元",
+        "rationale": "对教材观点的改写，措辞不同但语义对应",
+        "confidence": 0.8,
+        "client_key": "lesson-a-paraphrase-1"
+      },
+      {
+        "category": "student_note",
+        "quote": "自己连续一周记录校园落叶",
+        "rationale": "学生个人经历补充，无外部相似来源",
+        "confidence": 0.9,
+        "client_key": "lesson-a-note-1"
+      },
+      {
+        "category": "tool_suggestion",
+        "quote": "待确认的词语润色建议",
+        "rationale": "只检测到相似措辞，缺少工具记录与出处，无法判断是否为允许使用的辅助工具",
+        "confidence": 0.3,
+        "client_key": "lesson-a-tool-1"
+      }
+    ]
   },
   {
     "record_id": "homework-authorship-review-lesson-b",
@@ -13,6 +53,15 @@
     "revision": 1,
     "observed_at": "2026-11-18T09:05:00Z",
     "text": "教师复核作业片段时应查看课程语境。",
-    "context": "课堂练习"
+    "context": "课堂练习",
+    "annotation_proposals": [
+      {
+        "category": "student_note",
+        "quote": "教师复核作业片段时应查看课程语境。",
+        "rationale": "课堂练习中学生自行总结的复核流程，无外部来源",
+        "confidence": 0.85,
+        "client_key": "lesson-b-note-1"
+      }
+    ]
   }
 ]
